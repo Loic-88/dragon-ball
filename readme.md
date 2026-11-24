@@ -10,6 +10,7 @@ Afficher une carte (ou plusieurs) en créant une base de donnée dans le back-en
 
 - VSCode
 - Git Bash, Git Hub
+- Sqlectron
 - GoogleSheets
 - Trello
 - Excalidraw
@@ -22,3 +23,6 @@ Afficher une carte (ou plusieurs) en créant une base de donnée dans le back-en
   - Début du Wireframe sur Excalidraw.
 
 - 24/11/2026:
+  - Initialisation de la BDD avec Sqlectron.
+  - Liaison entre la BDD et le back-end.
+  - Liaison entre le back-end et le front-end.
