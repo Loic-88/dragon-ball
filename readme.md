@@ -35,3 +35,6 @@ Afficher une carte (ou plusieurs) en créant une base de donnée dans le back-en
     - Mise en place de react-router ainsi que les routes correspondantes
   - Création d'un dossier CSS et du fichier App.css
   - Ajout de la police d'écriture dans index.html
+  - Création de la branche Header
+    - Création des fichiers Header.tsx et Header.css
+    - Ajout d'un logo dans le dossier public

@@ -1,5 +1,12 @@
 :root {
-  --main-color: #ffcd01;
-  --secondary-color: #5c8ed4;
+  --main-color: #ff751b;
+  --secondary-color: #5472ae;
   font-family: Saira, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: var(--secondary-color);
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
