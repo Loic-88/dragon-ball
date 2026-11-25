@@ -30,6 +30,6 @@ Afficher une carte (ou plusieurs) en créant une base de donnée dans le back-en
 - 25/11/2026:
   - Ajout d'images dans la BDD
   - Modifications dans App.tsx pour afficher les images en front-end
-  - Création du dossier Components
+  - Création du dossier pages
   - Création d'un dossier CSS et du fichier App.css
   - Ajout de la police d'écriture dans index.html
