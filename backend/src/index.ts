@@ -21,8 +21,18 @@ app.get("/", (req, res) => {
 });
 
 app.get("/characters", async (req, res) => {
-  const { rows } = await db.query("SELECT * FROM character");
+  const { rows } = await db.query(
+    "SELECT id, name, category, description, image FROM character",
+  );
   res.json(rows);
+});
+
+app.get("/characters/:id", async (req, res) => {
+  const { rows } = await db.query(
+    "SELECT id, name, category, description, image FROM character WHERE id=$1",
+    [Number(req.params.id)],
+  );
+  res.json(rows[0]);
 });
 
 app.listen(PORT, () => {

@@ -31,5 +31,7 @@ Afficher une carte (ou plusieurs) en créant une base de donnée dans le back-en
   - Ajout d'images dans la BDD
   - Modifications dans App.tsx pour afficher les images en front-end
   - Création du dossier pages
+    - Création des fichiers HomePage et CharacterPage dans le dossier pages
+    - Mise en place de react-router ainsi que les routes correspondantes
   - Création d'un dossier CSS et du fichier App.css
   - Ajout de la police d'écriture dans index.html
