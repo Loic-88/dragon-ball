@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-
+import "./css/App.css";
 type Character = {
   id: number;
   name: string;
   category: string;
   description: string;
+  image: string;
 };
 
 function App() {
@@ -21,10 +22,11 @@ function App() {
 
   return (
     <>
-      <h1>Welcome Home !</h1>
+      <h1>Personnages</h1>
       {characters.map((character) => (
         <article key={character.id}>
           <h2>{character.name}</h2>
+          <img src={character.image} alt={character.name} />
           <p>{character.category}</p>
           <p>{character.description}</p>
         </article>
