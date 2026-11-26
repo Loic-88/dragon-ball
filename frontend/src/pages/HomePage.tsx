@@ -1,12 +1,6 @@
 import { useEffect, useState } from "react";
-
-type Character = {
-  id: number;
-  name: string;
-  category: string;
-  description: string;
-  image: string;
-};
+import { Link } from "react-router";
+import type { Character } from "../types/Character";
 
 export default function HomePage() {
   const [characters, setCharacters] = useState<Character[]>([]);
@@ -22,15 +16,14 @@ export default function HomePage() {
 
   return (
     <>
-      <h1>Personnages</h1>
-      {characters.map((character) => (
-        <article key={character.id}>
-          <h2>{character.name}</h2>
-          <img src={character.image} alt={character.name} />
-          <p>{character.category}</p>
-          <p>{character.description}</p>
-        </article>
-      ))}
+      <h1>Welcome Home !</h1>
+      {characters.map((character) => {
+        return (
+          <p key={character.id}>
+            <Link to={`/${character.id}`}>{character.name}</Link>
+          </p>
+        );
+      })}
     </>
   );
 }

@@ -33,8 +33,13 @@ Afficher une carte (ou plusieurs) en créant une base de donnée dans le back-en
   - Création du dossier pages
     - Création des fichiers HomePage et CharacterPage dans le dossier pages
     - Mise en place de react-router ainsi que les routes correspondantes
-  - Création d'un dossier CSS et du fichier App.css
+    <!-- - Création d'un dossier CSS et du fichier App.css
   - Ajout de la police d'écriture dans index.html
   - Création de la branche Header
     - Création des fichiers Header.tsx et Header.css
-    - Ajout d'un logo dans le dossier public
+    - Ajout d'un logo dans le dossier public -->
+
+- 26/11/2026:
+  - Création d'un lien dynamique dans HomePage.tsx (front-end)
+  - Dans App.tsx, création d'un Header omniprésent avec un lien vers la HomePage (front-end)
+  - Création d'une route "DELETE" dans index.ts (back-end)
