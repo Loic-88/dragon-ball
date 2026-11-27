@@ -1,16 +1,22 @@
-import { Route, Routes } from "react-router";
-import "./css/App.css";
+import { Link, Route, Routes } from "react-router";
 import HomePage from "./pages/HomePage";
 import CharacterPage from "./pages/CharacterPage";
-import Header from "./pages/Header";
 
 function App() {
   return (
     <>
-      <Header />
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Back to la maison !</Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/character/:id" element={<CharacterPage />} />
+        <Route path="/:id" element={<CharacterPage />} />
       </Routes>
     </>
   );
