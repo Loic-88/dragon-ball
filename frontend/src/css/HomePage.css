@@ -1,0 +1,26 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.bloc {
+  background-color: var(--main-color);
+  margin-left: 40vw;
+  margin-right: 40vw;
+  border-radius: 1rem;
+}
+
+.personnage {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}

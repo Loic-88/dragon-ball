@@ -11,7 +11,9 @@ function App() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Back to la maison !</Link>
+            <Link className="retour" to="/">
+              Back to la maison !
+            </Link>
           </li>
         </ul>
       </nav>
