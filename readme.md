@@ -38,3 +38,7 @@ Afficher une carte (ou plusieurs) en créant une base de donnée dans le back-en
   - Création d'un lien dynamique dans HomePage.tsx (front-end)
   - Dans App.tsx, création d'un Header omniprésent avec un lien vers la HomePage (front-end)
   - Création d'une route "DELETE" dans index.ts (back-end)
+
+- 27/11/2026:
+  - Mise à jour de la branche 01-Header avec les dernières modifications de la branche dev (PR de la dev à la 01-Header)
+  - Branche "01-Header" renommée "personalized"
