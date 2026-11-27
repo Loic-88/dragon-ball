@@ -42,3 +42,6 @@ Afficher une carte (ou plusieurs) en créant une base de donnée dans le back-en
 - 27/11/2026:
   - Mise à jour de la branche 01-Header avec les dernières modifications de la branche dev (PR de la dev à la 01-Header)
   - Branche "01-Header" renommée "personalized"
+  - Création d'un bouton supprimer dans CharacterPage.tsx
+    - Ajout d'une demande de confirmation
+    - Ajout de toats
