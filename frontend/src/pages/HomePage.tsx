@@ -16,11 +16,14 @@ export default function HomePage() {
 
   return (
     <>
-      <h1>Welcome Home !</h1>
+      <h1>Personnages</h1>
       {characters.map((character) => {
         return (
           <p key={character.id}>
-            <Link to={`/${character.id}`}>{character.name}</Link>
+            <Link to={`/${character.id}`}>
+              {character.name}
+              <img src={character.image} alt={character.name} />
+            </Link>
           </p>
         );
       })}
