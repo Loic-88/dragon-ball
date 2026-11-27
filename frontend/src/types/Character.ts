@@ -3,4 +3,5 @@ export type Character = {
   name: string;
   category: string;
   description: string;
+  image: string;
 };

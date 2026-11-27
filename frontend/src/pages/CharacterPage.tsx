@@ -22,7 +22,7 @@ export default function CharacterPage() {
 
   return (
     <p>
-      {character.title} (n°{id})
+      {character.name} (n°{id})
     </p>
   );
 }
